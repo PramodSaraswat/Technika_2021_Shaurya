@@ -1,0 +1,60 @@
+.header {
+background-color: firebrick;
+}
+
+.overlay{
+  height: 400px;
+  width: 100%;
+  background: black;
+  overflow: hidden;
+  background: #C33764;
+  color: white;
+  background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://images.hdqwalls.com/wallpapers/the-big-bang-theory-4.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://images.hdqwalls.com/wallpapers/the-big-bang-theory-4.jpg"); /* The least supported option. */
+}
+
+section{
+  height: 820px;
+  width: 100%;
+  text-align: center;
+  padding-top: 00px;
+  color: white;
+  background: black;
+  overflow: hidden;
+  background: #C33764;
+  background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://images.hdqwalls.com/wallpapers/the-big-bang-theory-4.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://images.hdqwalls.com/wallpapers/the-big-bang-theory-4.jpg"); /* The least supported option. */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Lora", serif;
+  color: white;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 20%;
+  font-size: 100px;
+  opacity: 100%;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headerImg {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+  opacity: 0.4;
+}

@@ -1,0 +1,17 @@
+.posts{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    background-color: #FEFFB1;
+    border-radius: 10px;
+}
+
+.postDesc {
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+    background-color: #FEFFB1;
+    padding: 10px;
+    text-wrap: normal;
+}
